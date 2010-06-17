@@ -1,0 +1,23 @@
+#summary iReader Change Log
+#labels Featured
+
+===1.2.0===
+(2010-06-17)
+  * Added new options
+    * Change hotkey.
+    * Change background opacity.
+    * Mail articles from Gmail.
+    * Change article width.
+    * Change article margins.
+  * Added a preview panel in the Options window.
+  * Fixed a bunch of bugs (Special thanks to G.Glaurung for his great feedback).
+
+===1.1.0===
+(2010-06-15)
+  * Added control box with 8 functions:
+    * Zoom in/out, Mail/Print, Share on Twitter/Facebook, Options and Exit.
+  * Added Options window
+    * Enable/disable smooth scroll.
+    * Change display font.
+    * Enable/disable text justifying.
+  * Remember scroll position.
