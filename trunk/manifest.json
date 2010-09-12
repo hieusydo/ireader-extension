@@ -1,0 +1,30 @@
+{
+	"name": "iReader",
+	"version": "1.3.0.2",
+	"description": "View news stories and other articles in a very easy to read, clutter-free, scrollable display.",
+	"icons": {
+		"128": "assets/images/icon-128.png",
+		"32": "assets/images/icon-32.png",
+		"16": "assets/images/icon-16.png"
+	},
+	
+	"background_page": "main.html",
+	"options_page": "options.html",
+	
+	"permissions": [
+		"tabs",
+		"http://*/",
+		"https://*/"
+	],
+
+	"page_action": {
+		"default_icon": "assets/images/icon-19.png",
+		"default_title": "iReader"
+	},
+	
+	"content_scripts": [{
+		"matches": [ "http://*/*", "https://*/*" ],
+		"js": [ "assets/scripts/core.js" ],
+		"run_at": "document_end"
+	}]
+}
